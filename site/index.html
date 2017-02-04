@@ -3,28 +3,65 @@
 <head>
 	<meta charset="utf-8">
 	<title>Coursera  is cool.</title>
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+			margin: 0;
+		}
+		body{
+			background: gray;
+		}
+		h1{
+			color: blue;
+			text-align: center;
+			text-transform: capitalize;
+		}
+		#sidebar{
+			float: right;
+			width: 30%;
+			height: 600px;
+			overflow: scroll;
+			border-left: 0;
+			border-bottom: 0;
+		}
+		div>h2{
+			text-align: center;
+			text-transform: capitalize;
+			text-decoration: underline;
+			color: red;
+		}
+		.def{
+			background-color: white;
+			padding: 10px;
+			background-color: white;
+			border : 4px solid black;
+		}
+		#assignment{
+			width:70%;
+			height: 300px;
+			border-bottom: 0;
+		}
+		#study_material{
+			width: 70%;
+			height: 300px;
+			border-bottom: 0;
+		}
+		.foot{
+			text-align: center;
+		}
+	</style>
 </head>
 <body>
-Coursera is so cool.I am learning so much.
-<!--comment-->
-<br>
-<b>this is bold</b>
-<br>
-<big>this is big but not bold</big>
-<br>
-<center>if i write something here it goes in center</center>
-<br>
-<dl>
-	<dt>a</dt><dd>it is a</dd>
-	<dt>b</dt><dd>it is b</dd>
-
-</dl>
-this is an <em>emphasised</em> word if i write something here it goes in center truth&nbsp;or&nbsp;dare
-<br>
-<form method="post" action="index.html">
-	Name: <input size="10" name="_name"><br>
-	<center><input type="submit"></center><br>
-</form>
-<hr  size="20" noshade>
+	<h1 class=def style="border-bottom: 0;">CSE SECTION A</h1>
+	<div id="sidebar" class=def>
+		<h2>Recent Uploads</h2>
+	</div>
+	<div id="assignment" class="def">
+		<h2>assignments</h2>
+	</div>
+	<div id="study_material" class="def">
+		<h2>study materials</h2>
+	</div>
+	<footer class="def foot">Copyright&copy; Ashish</footer>
 </body>
 </html>
