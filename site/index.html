@@ -2,66 +2,68 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Coursera  is cool.</title>
+	<title>CSE SECTION A</title>
 	<style type="text/css">
-		*{
-			box-sizing: border-box;
-			margin: 0;
-		}
 		body{
-			background: gray;
+			position: relative;
 		}
-		h1{
-			color: blue;
+		*{
+			margin:0px;
+		}
+		#title{
 			text-align: center;
-			text-transform: capitalize;
+			font-size: 48px;
+			color:white;
+			font-family: helvetica;
+			margin-bottom: 30px;
+			position: relative;
 		}
-		#sidebar{
-			float: right;
-			width: 30%;
-			height: 600px;
-			overflow: scroll;
-			border-left: 0;
-			border-bottom: 0;
+		#top{
+			height:200px;
 		}
-		div>h2{
+		#body{
+			height: 800px;
+		}
+		#desc{
+			font-family: helvetica;
 			text-align: center;
-			text-transform: capitalize;
-			text-decoration: underline;
-			color: red;
-		}
-		.def{
-			background-color: white;
-			padding: 10px;
-			background-color: white;
-			border : 4px solid black;
-		}
-		#assignment{
-			width:70%;
-			height: 300px;
-			border-bottom: 0;
+			font-size: 30px;
+			color: white;
+			margin: 40px 35% 0px 35%;
+			padding-bottom: 100px;
+			position: relative;
 		}
 		#study_material{
-			width: 70%;
-			height: 300px;
-			border-bottom: 0;
-		}
-		.foot{
+			background-color: #74bc60;
+			color: white;
+			font-size: 20px;
+			position: relative;
+			width: 130px;
 			text-align: center;
+			margin: 0px 4px 0px 90%;
+			top: 10px;	
+		}
+		#study_material:hover{
+			background-color: #740060;
 		}
 	</style>
 </head>
 <body>
-	<h1 class=def style="border-bottom: 0;">CSE SECTION A</h1>
-	<div id="sidebar" class=def>
-		<h2>Recent Uploads</h2>
+<div id="body">
+	<div>
+		<img style="width: 100%; position: absolute; top: 0;" src="header.jpg">
+		<div id="top">
+			<div id ="study_material">
+				Study Material
+			</div>
+		</div>
+		<div id="title">Welcome to Section A Blog</div>
+		<div id="desc">
+			The easiest way for students to connect and collaborate with each other.
+		</div>
+
 	</div>
-	<div id="assignment" class="def">
-		<h2>assignments</h2>
-	</div>
-	<div id="study_material" class="def">
-		<h2>study materials</h2>
-	</div>
-	<footer class="def foot">Copyright&copy; Ashish</footer>
+</div>
+	
 </body>
 </html>
