@@ -146,16 +146,17 @@ h1 {
 #title1{
 	width:33.3%;
 	position: absolute;
-	right:0;
+	right:20px;
 	text-align: center;
 	background-color: black;
 	color: gold;
+	height:8%;
 	font-size: 125%;
 }
 #title2{
 	width:33.3%;
 	position: absolute;
-	right:0;
+	right:20px;
 	text-align: center;
 	background-color: darkblue;
 	color: cyan;
@@ -163,7 +164,7 @@ h1 {
 }#title3{
 	width:33.3%;
 	position: absolute;
-	right:0;
+	right:20px;
 	text-align: center;
 	background-color: orangered;
 	color: white;
@@ -175,6 +176,7 @@ h1 {
 	padding: 50px;
 	text-align: center;
 	color:lightyellow;
+	margin:0px 20px 20px 20px;
 }
 #box2{
 	top:20px;
@@ -182,6 +184,7 @@ h1 {
 	padding: 50px;
 	text-align: center;
 	color:tomato;
+	margin:0px 20px 20px 0px;
 }
 #box3{
 	top:20px;
@@ -189,8 +192,8 @@ h1 {
 	padding: 50px;
 	text-align: center;
 	color:oldlace;
+	margin: 0px 20px 20px 0px;
 }
 .mar{
-	margin:20px;
-	border:black 1px solid ;
+	border: 1px black solid;
 }
