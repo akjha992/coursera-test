@@ -1,0 +1,30 @@
+body{
+	background-color: floralwhite;
+	font-size: 1.2em;
+}
+#menu-list{
+	background-color: blueviolet;
+	color: oldlace;
+	font-size: 2em;
+	text-align: center;
+}
+.chick{
+	color: lightyellow;
+}
+div.items{
+	background-color: slategrey;
+	height: 1000px;
+}
+h1{
+	font-size: 3em;
+	color: tomato;
+}
+#myheader{
+	background: black;
+	width: 100%;
+	margin:0px;
+}
+#mybrand{
+	color: gold;
+	font-size: 3em;
+}
